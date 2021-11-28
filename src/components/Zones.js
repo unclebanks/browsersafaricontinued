@@ -47,23 +47,22 @@ export const Zones = function () {
     var _locationName = document.getElementById("location_name");
     _locationName.innerHTML = _locations[zoneName];
   
-    var _locationElement = document.getElementById("zoneImage");
-    _locationElement.className = "";
+    var _locationElement = document.getElementById("zoneContainer");
     _locationElement.className = zoneName;
   };
   const renderTheList = () => {
-    let mainZoneWindow = document.getElementById("zoneContainer");
+    let mainZoneWindow = document.getElementById("totalZoneContainer");
     let zoneList = document.getElementById("zoneListContainer");
     mainZoneWindow.style.display = "none";
     zoneList.style.display = "block";
   }
 
     return(
+      <div id="totalZoneContainer">
         <div id="zoneContainer">
-            <div id="zoneImage">
             <div id="currentZone" className="zone">Now exploring <span id="location_name"></span></div>
                 <span className="change" onClick={renderTheList}>Change Region</span>
-            </div>
         </div>
+      </div>
     )
 }
