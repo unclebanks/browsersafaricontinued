@@ -1,0 +1,72 @@
+#zoneContainer {
+    grid-row: 2;
+    grid-column: 2;
+    border: 1px solid black;
+}
+#currentZone {
+    background-color: #354b5e;
+    color: white;
+}
+.vforest {
+    background-image: url('../images/backgrounds/kanto/vforest.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    min-width: 100%;
+}
+.ccave {
+    background-image: url('../images/backgrounds/kanto/ccave.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    min-width: 100%;
+}
+.digcave {
+    background-image: url('../images/backgrounds/kanto/digcave.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    min-width: 100%;
+}
+.kszone {
+    background-image: url('../images/backgrounds/kanto/kszone.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    min-width: 100%;
+}
+.kvroad {
+    background-image: url('../images/backgrounds/kanto/kvroad.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    min-width: 100%;
+}
+.rtunnel {
+    background-image: url('../images/backgrounds/kanto/rtunnel.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    min-width: 100%;
+}
+.change {
+	height:								22px;
+	line-height:					22px;
+	padding-left:					8px;
+	background-image:			url('../images/fancies/change_bg.png');
+	background-color:			transparent;
+    background-size: contain;
+	color:								#000;
+	font-size:						12px;
+	width:								50%;
+	text-decoration:			none;
+	-webkit-transition:		background-color 0.2s;
+	transition:						background-color 0.2s;
+	position:							absolute;
+}
+
+.change:hover {
+	background-color:			white;
+	text-decoration:			none;
+    cursor: pointer;
+}

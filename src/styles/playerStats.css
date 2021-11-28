@@ -1,0 +1,5 @@
+#playerStatsContainer {
+    grid-column: 2;
+    grid-row: 3;
+    border: 1px solid gray;
+}

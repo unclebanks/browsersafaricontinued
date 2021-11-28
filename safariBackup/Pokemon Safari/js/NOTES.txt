@@ -1,0 +1,11 @@
+FILE LOCATIONS
+
+Pokemon Information => data.js
+
+Pokemon Encounter Information => habitats.json
+
+Set location names in menu.js, encounter.js, battle.js, zone.js
+
+Location Background => locations.css
+
+Add Kanto Region =>zone.html

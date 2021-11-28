@@ -1,0 +1,36 @@
+#pokedexContainer {
+    grid-row: 2 / 5;
+    grid-column: 3;
+    max-height: 100%;
+    overflow: auto;
+}
+#pokedexContainer img {
+    vertical-align:   middle;
+    width:            100px;
+    height:           100px;
+  }
+  
+  .topmargin {
+    margin-top:       28px;
+  }
+  
+  .pokedex {
+    height: 560px;
+    overflow: auto;
+  }
+  
+  .pokedex table {
+    width:            100%;
+    border-collapse:  collapse;
+    border-spacing:   0;
+    text-indent:      5px;
+  }
+  
+  .pokedex tr:nth-child(odd) {
+    background-color: #e5e5e5;
+  }
+  
+  .pokedex tr{
+    width:            100%;
+  }
+  
