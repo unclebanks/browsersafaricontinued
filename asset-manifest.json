@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/browsersafaricontinued/static/css/main.8d070ee9.chunk.css",
+    "main.js": "/browsersafaricontinued/static/js/main.de57acb8.chunk.js",
+    "main.js.map": "/browsersafaricontinued/static/js/main.de57acb8.chunk.js.map",
+    "runtime-main.js": "/browsersafaricontinued/static/js/runtime-main.a60d1779.js",
+    "runtime-main.js.map": "/browsersafaricontinued/static/js/runtime-main.a60d1779.js.map",
+    "static/js/2.793610e6.chunk.js": "/browsersafaricontinued/static/js/2.793610e6.chunk.js",
+    "static/js/2.793610e6.chunk.js.map": "/browsersafaricontinued/static/js/2.793610e6.chunk.js.map",
+    "static/js/3.05926e37.chunk.js": "/browsersafaricontinued/static/js/3.05926e37.chunk.js",
+    "static/js/3.05926e37.chunk.js.map": "/browsersafaricontinued/static/js/3.05926e37.chunk.js.map",
+    "index.html": "/browsersafaricontinued/index.html",
+    "static/css/main.8d070ee9.chunk.css.map": "/browsersafaricontinued/static/css/main.8d070ee9.chunk.css.map",
+    "static/js/2.793610e6.chunk.js.LICENSE.txt": "/browsersafaricontinued/static/js/2.793610e6.chunk.js.LICENSE.txt",
+    "static/media/zone.css": "/browsersafaricontinued/static/media/wisle.b6564b82.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a60d1779.js",
+    "static/js/2.793610e6.chunk.js",
+    "static/css/main.8d070ee9.chunk.css",
+    "static/js/main.de57acb8.chunk.js"
+  ]
+}
