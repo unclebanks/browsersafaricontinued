@@ -2,12 +2,18 @@
     grid-row: 2;
     grid-column: 2;
     border: 1px solid black;
-    min-height: 100%;
-    min-width: 100%;
 }
 #zoneContainer {
-    min-height: 100%;
-    min-width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+}
+#zoneListContainer {
+    grid-column: 2;
+    grid-row: 2;
+    display: none;
+    max-height: 100%;
+    max-width: 100%;
+	overflow: auto;
 }
 #currentZone {
     background-color: #354b5e;
@@ -76,3 +82,65 @@
 	text-decoration:			none;
     cursor: pointer;
 }
+.title {
+	height:								28px;
+	line-height:					28px;
+	padding-left: 				8px;
+	color: 								white;
+	text-align: 					center;
+	font-size: 						17px;
+	
+	background: 					#354b5e;
+}
+
+.button {
+	height: 							60px;
+	line-height: 					60px;
+	padding-left: 				10px;
+	color: 								#fff;
+	font-size: 						16px;
+	font-weight: 					700;
+	opacity: 							0.6;
+	cursor: 							pointer;
+	
+	-webkit-transition:		opacity 0.2s;
+	transition:						opacity 0.2s;
+}
+
+.button span {
+	background: 					rgba(0, 0, 0, 0.6);
+	padding: 							0 4px;
+}
+
+.button:hover {
+	opacity: 							1;
+}
+#zoneListContainer .button {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#vforest   { background-image: url('../images/backgrounds/kanto/vforest.png'); }
+#mtmoon   { background-image: url('../images/backgrounds/kanto/mtmoon.png'); }
+#rtunnel    { background-image: url('../images/backgrounds/kanto/rtunnel.png'); }
+#digcave     { background-image: url('../images/backgrounds/kanto/digcave.png'); }
+#kszone     { background-image: url('../images/backgrounds/kanto/kszone.png'); }
+#pwrplnt     { background-image: url('../images/backgrounds/kanto/pwrplnt.png'); }
+#sfisle     { background-image: url('../images/backgrounds/kanto/sfisle.png'); }
+#pkmnmnsn     { background-image: url('../images/backgrounds/kanto/pkmnmnsn.png'); }
+#kvroad     { background-image: url('../images/backgrounds/kanto/kvroad.png'); }
+#ccave     { background-image: url('../images/backgrounds/kanto/ccave.png'); }
+#fish     { background-image: url('../images/backgrounds/kanto/fish.png'); }
+
+/* Johto */
+#npark     { background-image: url('../images/backgrounds/johto/npark.png'); }
+#ruinsoa  { background-image: url('../images/backgrounds/johto/ruinsoa.png'); }
+#iforest    { background-image: url('../images/backgrounds/johto/iforest.png'); }
+#ttower     { background-image: url('../images/backgrounds/johto/ttower.png'); }
+#wisle  { background-image: url('../images/backgrounds/johto/wisle.png'); }
+#mmortar    { background-image: url('../images/backgrounds/johto/mmortar.png'); }
+#lakerage    { background-image: url('../images/backgrounds/johto/lakerage.png'); }
+#icepath  { background-image: url('../images/backgrounds/johto/icepath.png'); }
+#dcave    { background-image: url('../images/backgrounds/johto/dcave.png'); }
+#msilver    { background-image: url('../images/backgrounds/johto/msilver.png'); }
+#jvroad  { background-image: url('../images/backgrounds/johto/jvroad.png'); }
+#jfish    { background-image: url('../images/backgrounds/johto/jfish.png'); }

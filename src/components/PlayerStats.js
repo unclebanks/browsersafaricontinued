@@ -14,9 +14,6 @@ export const PlayerStats = function () {
         if(!localStorage.getItem("browserMonPokedex")){
           localStorage.setItem("browserMonPokedex", JSON.stringify({}));
         }
-        if(!localStorage.getItem("browserMonFrequency")){
-          localStorage.setItem("browserMonFrequency", "uncommon");
-        }
         if(!localStorage.getItem("browserMonNotifications")){
           localStorage.setItem("browserMonNotifications", "on");
         }
